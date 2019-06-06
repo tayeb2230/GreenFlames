@@ -1,0 +1,92 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+header
+{
+    background-image: url(ter.jpg);
+    background-size: cover;
+    
+}
+body
+{
+    text-align: left;
+    background-image: url(ter.jpg);
+    background-position: center;
+}
+form
+{
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    font: 14px/1.4 "helvetica neue",helvetica,arial,sans-serif;
+    overflow: hidden;
+    width: 400px;
+    height: 650px;
+    position: static;
+    align-self:auto;
+    background-position: center;
+    align-content: center;
+}
+fieldset
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+input
+{
+    border-radius: 5px;
+    font: 14px/1.4 "helvetica neue",helvetica,arial,sans-serif;
+    margin: 0;
+}
+.xx
+{
+    padding: 20px 20px 0 20px;
+}
+.xx label
+{
+    color: #395870;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.xx input
+{
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,1);
+    color: #636466;
+    margin-top: 6px;
+    padding: 6px;
+    width: 100%;
+}
+.nn
+{
+    background: #f0f0f2;
+    border-top: 1px solid #cc66cc;
+    padding: 20px;
+}
+.nn .btn
+{
+    background: linear-gradient(#49708f,#293f50);
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    float: left;
+    padding: 8px 16px;
+}
+.nn label
+{
+    color: #7c7c88;
+    font-size: 12px;
+    float: left;
+    margin: 10px 0 0 20px;
+}

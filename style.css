@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(lol.jpg);
+height: 700px;
+background-size: cover;
+background-position: center;
+}
+.main-nav
+{
+    float:right;
+list-style-type: square lower-roman;
+    margin-top: 30px;
+
+}
+.main-nav li
+{
+    display: inline-block;
+
+}
+.main-nav li a 
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px 2px;
+    font-family: "roboto" , sans-serif;
+    font-size: 15px;
+    white-space: pre;
+
+}
+.main-nav li:active a
+{
+border: 1px solid black;
+}
+.main-nav li a:hover
+{
+    border: solid white;
+
+}
+.row 
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.logo img
+{
+    widows: 40px;
+    height: 70px;
+    float: left;
+    border-style: hidden;
+    background-size: 50px;
+}
+.har 
+{
+    float: right;
+    text-decoration-color: red;
+
+}
